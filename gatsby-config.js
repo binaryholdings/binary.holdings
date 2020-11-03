@@ -1,6 +1,5 @@
 /* eslint-disable quotes */
 module.exports = {
-  pathPrefix: `/blog`,
   siteMetadata: {
     title: `My website`,
     googleVerification: `abcdefz`,
