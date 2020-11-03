@@ -1,5 +1,6 @@
 /* eslint-disable quotes */
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     title: `My website`,
     googleVerification: `abcdefz`,
@@ -45,7 +46,8 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-autolink-headers`
+          `gatsby-remark-autolink-headers`,
+          `gatsby-plugin-offline`
         ]
       }
     },
