@@ -42,6 +42,56 @@ const features = [
   },
 ];
 
+const team = [
+  {
+    title: 'Marko Baricevic',
+    imageUrl: 'img/marko.png',
+    description: (
+      <>
+        Developer Relations at Interchain
+      </>
+    ),
+    link: 'https://www.linkedin.com/in/marko-baricevic-186632129/',
+  },
+  {
+    title: 'Shawn Tabrizi',
+    imageUrl: 'img/shawn.jpg',
+    description: (
+      <>
+        Core Developer at Parity Technologies
+      </>
+    ),
+    link: 'https://www.linkedin.com/in/shawn-tabrizi/',
+  },
+  {
+    title: 'Will Pankiewicz',
+    imageUrl: 'img/will.jpg',
+    description: (
+      <>
+        Master of Validators at Parity Technologies
+      </>
+    ),
+    link: 'https://www.linkedin.com/in/william-pankiewicz/',
+  },
+];
+
+function Team({ imageUrl, title, description, link }) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--4', styles.team)}>
+      {imgUrl && (
+        <div className="text--center">
+          <a href={link}>
+            <img className={styles.teamImage} src={imgUrl} alt={title} />
+          </a>
+        </div>
+      )}
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
+}
+
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -81,6 +131,18 @@ function Home() {
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        {team && team.length > 0 && (
+          <section className={styles.team}>
+            <div className="container">
+              <h2>The Team</h2>
+              <div className="row">
+                {team.map((props, idx) => (
+                  <Team key={idx} {...props} />
                 ))}
               </div>
             </div>
