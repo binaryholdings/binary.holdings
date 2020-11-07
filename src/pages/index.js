@@ -138,6 +138,7 @@ function Home() {
         )}
         {team && team.length > 0 && (
           <section className={styles.team}>
+            <div className={styles.backgroundContainer}></div>
             <div className="container">
               <h2>The Team</h2>
               <div className="row">
