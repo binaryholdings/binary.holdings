@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function Accent(props) {
 	let start = props.children;
-	console.log(start)
 	let split = start.split(" ");
 	let final = [];
 

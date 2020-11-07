@@ -17,6 +17,16 @@
   --ifm-code-font-size: 95%;
 }
 
+.pinkShades {
+  --ifm-color-primary: #ff00c1;
+  --ifm-color-primary-dark: #e600ae;
+  --ifm-color-primary-darker: #d900a4;
+  --ifm-color-primary-darkest: #b30087;
+  --ifm-color-primary-light: #ff1ac7;
+  --ifm-color-primary-lighter: #ff26ca;
+  --ifm-color-primary-lightest: #ff4dd4;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -51,4 +61,8 @@ body {
 
 .binaryPink {
   color: #ff00c1;
+}
+
+a, a:hover {
+  color: #00fff9;
 }
