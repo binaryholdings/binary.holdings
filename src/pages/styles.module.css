@@ -42,6 +42,7 @@
 }
 
 .subtitle {
-  padding-top: 20px;
+  padding-top: 10vh;
   font-family: monospace;
+  font-size: 1.8rem;
 }
