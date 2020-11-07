@@ -3,6 +3,12 @@
 	display: flex;
 }
 
+@media screen and (max-width: 966px) {
+	.heroWrapper {
+		font-size: 2.5rem;
+	}
+}
+
 .glitch {
 	position: absolute;
 	left: 0;
