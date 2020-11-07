@@ -14,8 +14,11 @@
     "@docusaurus/core": "2.0.0-alpha.66",
     "@docusaurus/preset-classic": "2.0.0-alpha.66",
     "@mdx-js/react": "^1.5.8",
+    "bootstrap": "^4.5.3",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-range-slider": "^2.0.2",
     "react-dom": "^16.8.4"
   },
   "browserslist": {

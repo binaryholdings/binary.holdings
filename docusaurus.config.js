@@ -101,7 +101,10 @@ module.exports = {
             'https://github.com/binaryholdings/binary.holdings/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('bootstrap/dist/css/bootstrap.min.css'),
+            require.resolve('./src/css/custom.css'),
+          ],
         },
       },
     ],
