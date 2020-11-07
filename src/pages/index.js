@@ -51,7 +51,7 @@ const team = [
         Developer Relations at Interchain
       </>
     ),
-    link: 'https://www.linkedin.com/in/marko-baricevic-186632129/',
+    link: 'https://www.linkedin.com/in/marko-baricevic/',
   },
   {
     title: 'Shawn Tabrizi',
