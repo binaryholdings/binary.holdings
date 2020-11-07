@@ -1,0 +1,37 @@
+<svg
+	preserveAspectRatio="xMinYMin meet"
+	viewBox="0 0 200 200"
+	xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+	<style type="text/css">
+		@font-face{font-family:"PT Mono";src:url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAUsAAwAAAAAB0QAAQBCAAAAAAAAAAAAAAAAAAAAAAAAAABHUE9TAAABHAAAAB4AAAAeRHRMdU9TLzIAAAE8AAAAWAAAAGBpKesJY21hcAAAAZQAAABHAAABSgBUBMtnYXNwAAAB3AAAABAAAAAQABkACWdseWYAAAHsAAABCgAAARSOE7BXaGVhZAAAAvgAAAA2AAAANgACxUhoaGVhAAADMAAAAB8AAAAkBc8BeWhtdHgAAANQAAAADAAAAAwCrQELbG9jYQAAA1wAAAAMAAAADACaAQ5tYXhwAAADaAAAABgAAAAgAAkAKG5hbWUAAAOAAAABlAAAAtTjekiycG9zdAAABRQAAAAXAAAAIP+4ADgAAQAAAAoAHAAcAAFERkxUAAgABAAAAAD//wAAAAAAAHicY2BhimCcwMDKwMDUxRTBwMDgDaEZ4xiMGH6xsjKxsXIyMbEyMbEA5RgFGBAgwDHIkcGBQYHBkLn0vygDA3Mpw2sFBobp/kxAhV+Y9gBlFBhYABUxDHx4nGNgYGBmgGAZBkYGEHAB8hjBfBYGDSDNBqQZGZgYFBgM//8H8hUYDP7////w/yWoeiBgZGMgCBjR+EzMhPUMJQAA7n0JHQAAAAADAAgAAgASAAH//wADeJxjYGLgYmBg8mPaw8DMwM/AIKwoqMjIrs4uzi5uLm6ubs7F5PJ3D+PTw4eNjh41ApLHjjHt+evCVHbzptGdO0ZgkgGo0/z/FyYFphMMwgwyDGpAU0zsmIyN5JhERfiYlJX0mFRN1BnlGI2NzFRFxMQZ9RiVldjM5Wxi7J1jraRAtFOstRTjdLZ/1wVdzCO8/+1hZmLUEnS2jPRkjAttjzU0iGkPB9GmCa0Bpgb/Plq6TJoqqSfGyGfmMJkBCBgZQoF+YAb6AegXc2NBdnUgYSyqWD93gfodi1n/ajyY+Aos5/7t8QCpPcUowdjLdJiBDcgBq1RmdE+SnqXpxpRubZj2L5QBAFfiRnUAAAABAAAAAQBCpf6+2F8PPPUIGQPoAAAAAMs+Z2cAAAAAyz8Z/QAK//QCTgLIAAAACQACAAAAAAAAeJxjYGRgYC79L8rAwBTBwMXAxeTHABRBAYwAP50CTgACWAAKAAAANwBVAMoAAAAiACIAYgB4AIp4nGNgZGBgYGVQZ2BmAAFGBjQAAATrADJ4nG1QwU7bQBSchQDqJap6rKrqHTjCxok4WVwoEhJVEAZFcEQmWTkWlm3tGlDu+QL+gltPfACHfkC/iFl7U1CEV88789682bcL4Cv+QqH7jhkdVtgh6/AG8e+AN/EdFwH3mL8LeAvfYAPeRh/LgPv4iSd2qd4XsiX+BKzQVwcBbxD/CngTByoJuMf8MuAt7KqVzzZ+qJeA+zhU/46remHzbN7I67OMomEkSWrTyaI2clpO9d47HTczLUdFIa3ciTXO2Acz08lEzqqyujTZfZHalZ7yWEIp9s6jQK6MdXlVylBH0fBazk/GycTn94PBvGnqeDBwU5vXjdMuL3RlswF1N4/mli9bocaCL5YjwxwNBM+MESIMGYIEKaspJlTVMMycosQUGnufVsf0mLEqOELBJR+8XcsMd8P9gX+vTNgtOOMkJeOS2Qz37PTO6/6de9ye/LEr/j/zaK1y1Z7lOIPnQoWmziuvyc5xQk/fsdLvr03g5254dowBl+PN/X3q9ja69S24V8xmrHd+N3ikx+0bo5yC5XicY2BmAIP/WxmMgBQjAypgBQAs2AHwAA==) format("woff"); font-weight:normal;font-style:normal;}
+		text {
+			font-family: 'PT Mono', monospace;
+			font-size: 150px;
+		}
+		.blue {
+			fill: #00fff9;
+		}
+		.pink {
+			fill: #ff00c1;
+		}
+	</style>
+</defs>
+	<text
+		x="50%"
+		y="50%"
+		dominant-baseline="middle"
+		text-anchor="middle"
+		transform="translate(-50, 15)"
+		class="blue"
+	>0</text>
+	<text
+		x="50%"
+		y="50%"
+		dominant-baseline="middle"
+		text-anchor="middle"
+		transform="translate(50, 15)"
+		class="pink"
+	>1</text>
+</svg>

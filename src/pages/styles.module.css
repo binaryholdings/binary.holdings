@@ -6,15 +6,18 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 12em 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #000;
+  color: #fff;
 }
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    height: calc(100vh - 60px);
+    padding: 0;
   }
 }
 
@@ -27,11 +30,18 @@
 .features {
   display: flex;
   align-items: center;
+  text-align: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: #000;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.subtitle {
+  padding-top: 20px;
+  font-family: monospace;
 }

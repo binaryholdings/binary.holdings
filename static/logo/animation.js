@@ -4,7 +4,8 @@ function sleep(ms) {
 
 async function binaryAnimation(repeat = true) {
 	let title = document.querySelector(".binary")
-	let finalTitle = title.innerText.split("");
+	let finalTitle = title.getAttribute("final") || title.innerText;
+	finalTitle = finalTitle.split("");
 
 	let length = finalTitle.length;
 

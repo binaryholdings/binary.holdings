@@ -5,35 +5,38 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Hero from '../components/hero';
+import Accent from '../components/accent';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Simple',
+    imageUrl: 'img/simple.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Nominating has never been this easy. Everything you need to join us can
+        be found on this site. Just install the{" "}
+        <a href="https://polkadot.js.org/extension/">Polkadot JS Extension</a>.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Safe',
+    imageUrl: 'img/safe.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The number one customer of Binary Holdings is ourselves. We treat your
+        funds just like our own.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Secure',
+    imageUrl: 'img/secure.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Binary Holdings is managed by the engineers who built Kusama, Polkadot
+        and Cosmos.
       </>
     ),
   },
@@ -59,22 +62,16 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={siteConfig.title}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
+          <h1 className="hero__title">
+            <Hero>{siteConfig.customFields.heroTitle}</Hero>
+          </h1>
+          <p className={clsx("hero__subtitle", styles.subtitle)}>
+            <Accent>{siteConfig.tagline}</Accent>
+          </p>
         </div>
       </header>
       <main>

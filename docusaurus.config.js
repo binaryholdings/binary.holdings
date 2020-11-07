@@ -1,10 +1,13 @@
 module.exports = {
+  customFields: {
+    heroTitle: 'B1NARY H0LDINGS',
+  },
   title: 'Binary Holdings',
-  tagline: 'Taking Zero to One',
+  tagline: 'from zero to one',
   url: 'https://binary.holdings.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'logo/icon.svg',
   organizationName: 'binaryholdings', // Usually your GitHub org/user name.
   projectName: 'binary.holdings', // Usually your repo name.
   themeConfig: {
@@ -13,10 +16,10 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Binary Holdings',
+      title: 'B1NARY H0LDINGS',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'logo/icon.svg',
       },
       items: [
         // {
