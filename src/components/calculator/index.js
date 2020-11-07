@@ -28,7 +28,7 @@ export default function Hero(props) {
 			<div className="container">
 				<div className="row">
 					<div className="col col--6">
-						<Card>
+						<Card className={styles.card}>
 							<Card.Body>
 								<Row>
 									<Col md={8}>
@@ -47,7 +47,7 @@ export default function Hero(props) {
 									max={max}
 									onChange={e => setValue(e.target.value)}
 								/>
-								<Table bordered variant="dark" responsive>
+								<Table bordered variant="dark" responsive className="d-table">
 									<tbody>
 										<tr>
 											<td>Daily Earnings</td>
@@ -66,16 +66,15 @@ export default function Hero(props) {
 										</tr>
 									</tbody>
 								</Table>
-								<Button variant="primary">Stake Now</Button>
+								<Button variant="success">Start Staking</Button>
 							</Card.Body>
 						</Card>
 					</div>
 					<div className={clsx("col col--6 my-auto", styles.lead)}>
 						<h1>Calculate your income</h1>
 						<p>
-							Calculate and compare your income using the live buttons. See your projected earnings
-							net of fees in tokens and in USD. The expected annual yield is shown as a gross percentage
-							and is calculated dynamically reflecting network variations.
+							Easily calculate and compare your income using this widget. We estimate your projected
+							earnings in USD.
 						</p>
 					</div>
 				</div>

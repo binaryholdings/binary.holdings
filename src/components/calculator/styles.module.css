@@ -5,12 +5,11 @@
   padding: 2rem 0;
   width: 100%;
   background-color: #b30087;
-  color: #000;
 }
 
 .returns {
 	font-size: 3em;
-	color: forestgreen;
+	color: #28a745!important;
 }
 
 .value {
@@ -27,4 +26,9 @@
 	padding: 2em;
 	color: #fff;
 	text-align: left;
+}
+
+.card {
+	background-color: #222;
+	color: #fff;
 }
