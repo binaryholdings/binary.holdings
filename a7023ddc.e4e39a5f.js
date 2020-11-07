@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{70:function(s){s.exports=JSON.parse('{"genesis":{"allTagsPath":"/blog/tags","slug":"genesis","name":"genesis","count":1,"permalink":"/blog/tags/genesis"},"binary-holdings":{"allTagsPath":"/blog/tags","slug":"binary-holdings","name":"binary holdings","count":1,"permalink":"/blog/tags/binary-holdings"}}')}}]);

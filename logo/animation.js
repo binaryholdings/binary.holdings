@@ -1,7 +1,7 @@
 // Configuration for animation
-const totalTime = 5_000;
-const animationTime = 200;
-const chance = .05;
+var totalTime = 5_000;
+var animationTime = 200;
+var chance = .05;
 
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
