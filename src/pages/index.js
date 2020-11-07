@@ -7,6 +7,7 @@ import styles from './styles.module.css';
 import Hero from '../components/hero';
 import Accent from '../components/accent';
 import Calculator from '../components/calculator';
+import BasicStats from '../components/basic-stats';
 
 const features = [
   {
@@ -78,7 +79,7 @@ const team = [
 function Team({ imageUrl, title, description, link }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.team)}>
+    <div className={clsx('col col--4')}>
       {imgUrl && (
         <div className="text--center">
           <a href={link}>
@@ -136,10 +137,8 @@ function Home() {
             </div>
           </section>
         )}
-        <Calculator />
         {team && team.length > 0 && (
           <section className={styles.team}>
-            <div className={styles.backgroundContainer}></div>
             <div className="container">
               <h2>The Team</h2>
               <div className="row">
@@ -150,6 +149,8 @@ function Home() {
             </div>
           </section>
         )}
+        <BasicStats />
+        <Calculator />
       </main>
     </Layout>
   );
