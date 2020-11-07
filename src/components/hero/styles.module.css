@@ -1,6 +1,7 @@
 .heroWrapper {
 	align-items: center;
 	display: flex;
+	font-size: 3.7rem;
 }
 
 @media screen and (max-width: 966px) {
