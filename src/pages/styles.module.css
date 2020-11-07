@@ -70,3 +70,20 @@
   font-family: monospace;
   font-size: 1.8rem;
 }
+
+.team {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #00b3ae;
+  color: #000;
+}
+
+.teamImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
