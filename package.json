@@ -15,6 +15,7 @@
     "@docusaurus/core": "2.0.0-alpha.66",
     "@docusaurus/preset-classic": "2.0.0-alpha.66",
     "@mdx-js/react": "^1.5.8",
+    "@polkadot/api": "^2.5.1",
     "bootstrap": "^4.5.3",
     "clsx": "^1.1.1",
     "gh-pages": "^3.1.0",

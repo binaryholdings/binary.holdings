@@ -5,29 +5,30 @@ export default function Accent(props) {
 	let split = start.split(" ");
 	let final = [];
 
-	for (let word of split) {
+	for (let id in split) {
+		let word = split[id];
 		switch (word) {
 			case "zero":
-				final.push(<span className="binaryBlue">{word}{" "}</span>);
+				final.push(<span key={id} className="binaryBlue">{word}{" "}</span>);
 				break;
 			case "one":
-				final.push(<span className="binaryPink">{word}{" "}</span>);
+				final.push(<span key={id} className="binaryPink">{word}{" "}</span>);
 				break;
 			case "B1NARY":
 					final.push(
 						<>
-							<span>B</span>
-							<span className="binaryPink">1</span>
-							<span>NARY</span>
+							<span key={id}>B</span>
+							<span key={id} className="binaryPink">1</span>
+							<span key={id}>NARY</span>
 						</>
 					);
 					break;
 			case "H0LDINGS":
 				final.push(
 					<>
-						<span>H</span>
-						<span className="binaryPink">0</span>
-						<span>LDINGS</span>
+						<span key={id}>H</span>
+						<span key={id} className="binaryPink">0</span>
+						<span key={id}>LDINGS</span>
 					</>
 				);
 				break;

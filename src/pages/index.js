@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,6 +8,7 @@ import Hero from '../components/hero';
 import Accent from '../components/accent';
 import Calculator from '../components/calculator';
 import BasicStats from '../components/basic-stats';
+import PolkadotConnect from '../components/polkadot-connect'
 
 const features = [
   {
@@ -111,10 +112,17 @@ function Feature({imageUrl, title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+
+  const [api, setApi] = useState();
+
   return (
     <Layout
       title={siteConfig.title}
-      description="Description will go into a meta tag in <head />">
+      description="A simple and safe validator for next generation blockchains.">
+      <PolkadotConnect
+        endpoint={"wss://kusama-rpc.polkadot.io"}
+        setApi={setApi}
+      />
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">
@@ -149,7 +157,7 @@ function Home() {
             </div>
           </section>
         )}
-        <BasicStats />
+        <BasicStats api={api}/>
         <Calculator />
       </main>
     </Layout>
