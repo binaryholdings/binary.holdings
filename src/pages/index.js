@@ -49,7 +49,7 @@ const team = [
     imageUrl: 'img/marko.png',
     description: (
       <>
-        Cofounder
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/marko-baricevic/',
