@@ -69,7 +69,7 @@ const team = [
     imageUrl: 'img/will.jpg',
     description: (
       <>
-        Cofounder
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/william-pankiewicz/',
