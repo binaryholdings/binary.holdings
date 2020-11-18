@@ -59,7 +59,7 @@ const team = [
     imageUrl: 'img/shawn.jpg',
     description: (
       <>
-        Cofounder
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/shawn-tabrizi/',
