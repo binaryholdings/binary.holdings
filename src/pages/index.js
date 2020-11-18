@@ -49,7 +49,7 @@ const team = [
     imageUrl: 'img/marko.png',
     description: (
       <>
-        Developer Relations at Interchain
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/marko-baricevic/',
@@ -59,7 +59,7 @@ const team = [
     imageUrl: 'img/shawn.jpg',
     description: (
       <>
-        Core Developer at Parity Technologies
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/shawn-tabrizi/',
@@ -69,7 +69,7 @@ const team = [
     imageUrl: 'img/will.jpg',
     description: (
       <>
-        Master of Validators at Parity Technologies
+        Founder
       </>
     ),
     link: 'https://www.linkedin.com/in/william-pankiewicz/',
