@@ -89,8 +89,8 @@ function Home() {
           </section>
         )}
         <Team />
-        <BasicStats />
-        <Calculator />
+        {/* <BasicStats /> */}
+        {/* <Calculator /> */}
       </main>
     </Layout>
   );
