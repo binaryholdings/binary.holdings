@@ -6,18 +6,18 @@ import styles from './styles.module.css';
 function ProjectIcon({ name, icon, link }) {
 	const iconUrl = useBaseUrl(icon);
 	return (
-			iconUrl && (
-				<a href={link}>
-					<img className={styles.projectImage} src={iconUrl} alt={name} title={name} />
-				</a>
-			)
+		iconUrl && (
+			<a href={link}>
+				<img className={styles.projectImage} src={iconUrl} alt={name} title={name} />
+			</a>
+		)
 	)
 }
 
 function Main({ imageUrl, title, description, link, projects }) {
 	const imgUrl = useBaseUrl(imageUrl);
 	return (
-		<div className={clsx('col col--4')}>
+		<div className={clsx('col col--3')}>
 			{imgUrl && (
 				<div className="text--center">
 					<a href={link}>
@@ -99,6 +99,17 @@ const team = [
 			</>
 		),
 		link: 'https://www.linkedin.com/in/marko-baricevic/',
+		projects: [cosmos, tendermint, interchain]
+	},
+	{
+		title: 'Onur Akpolat',
+		imageUrl: 'img/onur.jpg',
+		description: (
+			<>
+				Founder
+			</>
+		),
+		link: 'https://github.com/0xnr',
 		projects: [cosmos, tendermint, interchain]
 	},
 	{
