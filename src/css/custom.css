@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #00fff9;
+  --ifm-color-primary: #00fffa;
   --ifm-color-primary-dark: #00e6e0;
   --ifm-color-primary-darker: #00d9d4;
   --ifm-color-primary-darkest: #00b3ae;
@@ -18,7 +18,7 @@
 }
 
 .pinkShades {
-  --ifm-color-primary: #ff00c1;
+  --ifm-color-primary: #ff00c8;
   --ifm-color-primary-dark: #e600ae;
   --ifm-color-primary-darker: #d900a4;
   --ifm-color-primary-darkest: #b30087;
@@ -56,15 +56,15 @@ body {
 }
 
 .binaryBlue {
-  color: #00fff9;
+  color: #00fffa;
 }
 
 .binaryPink {
-  color: #ff00c1;
+  color: #ff00c8;
 }
 
 a, a:hover {
-  color: #00fff9;
+  color: #00fffa;
 }
 
 body {

@@ -22,13 +22,13 @@
 }
 .glitchFront {
 	left: 2px;
-	text-shadow: -2px 0 #ff00c1;
+	text-shadow: -2px 0 #ff00c8;
 	clip: rect(44px, 450px, 56px, 0);
 	animation: glitch-anim 10s infinite linear alternate-reverse;
 }
 .glitchBack {
 	left: -2px;
-	text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+	text-shadow: -2px 0 #00fffa, 2px 2px #ff00c8;
 	animation: glitch-anim2 5s infinite linear alternate-reverse;
 }
 
