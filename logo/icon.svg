@@ -11,10 +11,10 @@
 			font-size: 150px;
 		}
 		.blue {
-			fill: #00fff9;
+			fill: #00fffa;
 		}
 		.pink {
-			fill: #ff00c1;
+			fill: #ff00c8;
 		}
 	</style>
 </defs>
